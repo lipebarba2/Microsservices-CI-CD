@@ -61,8 +61,6 @@ public class UserController {
 
         UserDetailRequestModel returnValue =this.userService.createUser(userDetails);
 
-
-
         return ResponseEntity.status(HttpStatus.CREATED).body(returnValue);
     }
 
